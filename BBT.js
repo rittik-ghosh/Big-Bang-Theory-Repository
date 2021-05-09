@@ -26,7 +26,7 @@ function play (question, answer,option){
       score++;
   }
   else{
-      console.log(chalk.redBright.bold("\n"+"Sorry you missed!!!"));
+      console.log(chalk.redBright.bold("\n"+"Sorry you missed!!!"+ "The correct answer is : "+option[ans]));
   }
   console.log(chalk.yellowBright.bold("\n"+"Your current score is: "+chalk.redBright.bold(score)));
   console.log(chalk.blueBright.bold("\n"+"----------------------------"+"\n"));
